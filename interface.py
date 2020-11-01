@@ -6,7 +6,8 @@ raiz.iconbitmap("escafandra.ico")
 opciones=Frame(raiz, width=100, height=100)
 opciones.pack()
 
-titulo=Label(opciones,text="Busqueda profunda",pady=50, padx=50)
+imagen=PhotoImage(file="busqueda profunda.gif")
+titulo=Label(opciones, image=imagen)
 titulo.grid(row=0,column=0)
 
 class boton():
